@@ -10,6 +10,7 @@
   ],
   "projects": [
     {
+      "id": 1,
       "portfolioId": 1,
       "name:": "tsunodeverso",
       "repository": "https://github.com/tsunode/tsunode-verso-react",
@@ -18,6 +19,7 @@
   ],
   "portfolios": [
     {
+      "id": 1,
       "userId": 1,
       "color": "claro",
       "position": "Tech Lead",
