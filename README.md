@@ -10,7 +10,7 @@
   <a href="#endpoints">Endpoints</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
-A API tem um total de 13 endpoints, sendo em volta principalmente do usuário (dev) - podendo cadastrar seu perfil, tecnologias que estuda e trabalhos realizados. <br/>
+A API tem um total de 9 endpoints, sendo em volta principalmente do usuário (dev) - podendo cadastrar seu perfil, tecnologias que estuda e trabalhos realizados. <br/>
 
 A url base da API é https://kenzie-portify-api.onrender.com/
 
@@ -72,7 +72,7 @@ Caso dê tudo certo, a resposta será assim:
 
 <h2 align = "center"> Login </h2>
 
-`POST /sessions - FORMATO DA REQUISIÇÃO`
+`POST /login - FORMATO DA REQUISIÇÃO`
 
 ```json
 {
