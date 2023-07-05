@@ -104,6 +104,21 @@ Rotas que necessitam de autorização deve ser informado no cabeçalho da requis
 
 > Authorization: Bearer {token}
 
+
+<h2 align ='center'> Buscar usuario </h2>
+
+`GET /users/:idUser - FORMATO DA REQUISIÇÃO` - FORMATO DA RESPOSTA - STATUS 200`
+
+```json
+{
+  "email": "johndoe@email.com",
+  "name": "John Doe",
+  "id": 3
+}
+```
+
+
+
 <h2 align ='center'> Criar Portifólio </h2>
 
 `POST /portfolios - FORMATO DA REQUISIÇÃO`
