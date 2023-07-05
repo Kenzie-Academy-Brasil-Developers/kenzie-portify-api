@@ -35,7 +35,9 @@ Nessa aplicação o usuário sem fazer login ou se cadastrar pode ver os produto
         "portfolioId": 1,
         "name": "tsunodeverso",
         "repository": "https://github.com/tsunode/tsunode-verso-react",
-        "link": "https://verso.tsunode.com.br"
+        "link": "https://verso.tsunode.com.br",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "coverUrl": "https://www.codingdojo.com/blog/wp-content/uploads/react.jpg"
       }
     ]
   }
@@ -136,7 +138,9 @@ Rotas que necessitam de autorização deve ser informado no cabeçalho da requis
   "portfolioId": 1,
   "name": "tsunodeverso",
   "repository": "https://github.com/tsunode/tsunode-verso-react",
-  "link": "https://verso.tsunode.com.br/"
+  "link": "https://verso.tsunode.com.br/",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  "coverUrl": "https://www.codingdojo.com/blog/wp-content/uploads/react.jpg"
 }
 ```
 
@@ -148,7 +152,9 @@ Rotas que necessitam de autorização deve ser informado no cabeçalho da requis
 {
   "name:": "tsunodeverso",
   "repository": "https://github.com/tsunode/tsunode-verso-react",
-  "link": "https://verso.tsunode.com.br/"
+  "link": "https://verso.tsunode.com.br/",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  "coverUrl": "https://www.codingdojo.com/blog/wp-content/uploads/react.jpg"
 }
 ```
 <h2 align ='center'> Deletar Projeto do portfólio  </h2>
@@ -170,7 +176,9 @@ Não é necessário um corpo da requisição.
     "portfolioId": 1,
     "name": "tsunodeverso",
     "repository": "https://github.com/tsunode/tsunode-verso-react",
-    "link": "https://verso.tsunode.com.br"
+    "link": "https://verso.tsunode.com.br",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "coverUrl": "https://www.codingdojo.com/blog/wp-content/uploads/react.jpg"
   }
 ]
 ```
