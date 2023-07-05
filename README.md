@@ -33,7 +33,7 @@ Nessa aplicação o usuário sem fazer login ou se cadastrar pode ver os produto
        {
         "id": 1,
         "portfolioId": 1,
-        "name:": "tsunodeverso",
+        "name": "tsunodeverso",
         "repository": "https://github.com/tsunode/tsunode-verso-react",
         "link": "https://verso.tsunode.com.br"
       }
@@ -134,7 +134,7 @@ Rotas que necessitam de autorização deve ser informado no cabeçalho da requis
 ```json
 {
   "portfolioId": 1,
-  "name:": "tsunodeverso",
+  "name": "tsunodeverso",
   "repository": "https://github.com/tsunode/tsunode-verso-react",
   "link": "https://verso.tsunode.com.br/"
 }
@@ -168,7 +168,7 @@ Não é necessário um corpo da requisição.
    {
     "id": 1,
     "portfolioId": 1,
-    "name:": "tsunodeverso",
+    "name": "tsunodeverso",
     "repository": "https://github.com/tsunode/tsunode-verso-react",
     "link": "https://verso.tsunode.com.br"
   }
