@@ -134,7 +134,7 @@ Rotas que necessitam de autorização deve ser informado no cabeçalho da requis
 
 <h2 align ='center'> Atualizar Portifólio </h2>
 
-`PUT /portfolios/:idPortfolio - FORMATO DA REQUISIÇÃO`
+`PATCH /portfolios/:idPortfolio - FORMATO DA REQUISIÇÃO`
 
 ```json
 {
