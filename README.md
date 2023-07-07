@@ -44,6 +44,47 @@ Nessa aplicação o usuário sem fazer login ou se cadastrar pode ver os produto
 ]
 ```
 
+<h2 align ='center'> Buscar portfólio por id </h2>
+
+Nessa aplicação o usuário sem fazer login ou se cadastrar pode ver os produtos já cadastrados na plataforma, na API podemos acessar a lista dessa forma:
+
+`GET /portfolios/:idPortfolio?_embed=projects&_expand=user - FORMATO DA RESPOSTA - STATUS 200`
+
+```json
+{
+  "id": 1,
+  "userId": 1,
+  "color": "claro",
+  "position": "Tech Lead",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pulvinar urna ante, nec dapibus leo semper nec. Vivamus aliquet nibh nec urna accumsan, eget euismod magna fringilla. Nam condimentum, enim ut rhoncus sagittis, tellus mi sodales erat, nec ornare nunc nisi sed tortor.",
+  "projects": [
+    {
+      "id": 1,
+      "portfolioId": 1,
+      "name": "tsunodeverso",
+      "repository": "https://github.com/tsunode/tsunode-verso-react",
+      "link": "https://verso.tsunode.com.br/"
+    },
+    {
+      "portfolioId": 1,
+      "name": "teste3",
+      "repository": "https://github.com/tsunode/tsunode-verso-react",
+      "link": "ricardo.rufino/",
+      "id": 4
+    }
+  ],
+  "user": {
+    "email": "kenzinho@mail.com",
+    "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+    "name": "Kenzinho",
+    "age": 38,
+    "id": 1
+  }
+}
+```
+
+
+
 <h2 align ='center'> Criação de usuário </h2>
 
 `POST /users - FORMATO DA REQUISIÇÃO`
